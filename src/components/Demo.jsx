@@ -69,7 +69,7 @@ const Demo = () => {
 
           <input 
             type="url" 
-            placeholder="Enter a URL"
+            placeholder="Enter the article URL"
             value={article.url}
             onChange={(e) => setArticle({...article, url: e.target.value})}
             onKeyDown={handleKeyDown}
